@@ -9,7 +9,7 @@
 /**
  * Description of sorteoModel
  *
- * @author G039
+ * @author Packo Delgado
  */
 class sorteoModel {
     
