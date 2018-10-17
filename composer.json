@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "^1.23",
+        "twitter/bootstrap": "^4.1",
+        "smarty/smarty": "^3.1"
+    }
+}
