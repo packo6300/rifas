@@ -1,4 +1,9 @@
 <?php
+$debug=TRUE;
+if ($debug){
+    ini_set('display_errors', 1);
+    error_reporting(E_ALL);
+}
 require 'vendor/autoload.php';
 $smarty=new SmartyBC();
 $smarty->setCompileDir(__DIR__.'/temp/');
