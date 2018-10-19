@@ -7,15 +7,13 @@
  */
 
 /**
- * Description of sorteoModel
+ * Description of sorteoController
  *
- * @author Packo Delgado
+ * @author G039
  */
-class sorteoModel {
+class sorteoController {
     public function __construct() {
-        
-    }
-    public function Saludar() {
-        return "hola desde modelo";
+        $model = new sorteoModel();
+        echo $model->Saludar();
     }
 }
