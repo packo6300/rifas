@@ -16,4 +16,18 @@ class sorteoController {
         $model = new sorteoModel();
         echo $model->Saludar();
     }
+    public function indexAction() {
+        $s=array("sergio","jorge");
+        $menu=array(
+            "Mi perfil",
+            "Mis sorteos activos",
+            "Otros sorteos",
+        );
+        $smarty->assign("footer","Copyright &copy; Your Website 2018");
+        $smarty->assign("title","Sorteos");
+        $smarty->assign("menu",$menu);
+        $smarty->assign("val",$s[rand(0,1)]);
+        $smarty->display(__DIR__.'/app/views/index.tpl');
+    }
+    
 }
