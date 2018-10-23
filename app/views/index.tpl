@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="es">
     <head>
         <title>{$title}</title>
         <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.min.css">
