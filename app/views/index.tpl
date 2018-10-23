@@ -2,7 +2,9 @@
 <html lang="es">
     <head>
         <title>{$title}</title>
-        <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../app/resources/css/style.css">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script>
@@ -80,6 +82,6 @@
                 {$ads1}
             </div>
         </footer>
-        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.min.js"> </script>        
+        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"> </script>        
     </body>
 </html>
