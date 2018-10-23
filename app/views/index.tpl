@@ -36,7 +36,7 @@
                 </h1>
             </div>  
             <div class="row">
-                <div class="container align-content-center">{$ads2}</div>
+                <div class="container align-content-center">{$ads3}</div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 portfolio-item">
