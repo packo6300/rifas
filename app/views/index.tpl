@@ -74,9 +74,10 @@
                 {$ads1}
             </div>
         </footer>
-        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.min.js"> </script>
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
+        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.min.js"> </script>
+        
     </body>
 </html>
