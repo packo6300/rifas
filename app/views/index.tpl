@@ -5,6 +5,12 @@
         <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../app/resources/css/style.css">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({
+                  google_ad_client: "ca-pub-6064776652287686",
+                  enable_page_level_ads: true
+             });
+        </script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
@@ -74,7 +80,6 @@
                 {$ads1}
             </div>
         </footer>
-        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.min.js"> </script>
-        
+        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.min.js"> </script>        
     </body>
 </html>
