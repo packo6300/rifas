@@ -21,5 +21,4 @@ $smarty->assign("ads4","aqui banner 4");
 
 $smarty->assign("title","Sorteos");
 $smarty->assign("menu",$menu);
-$smarty->assign("val",$s[rand(0,1)]);
 $smarty->display(__DIR__.'/app/views/index.tpl');
