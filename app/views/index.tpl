@@ -4,6 +4,7 @@
         <title>{$title}</title>
         <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="../app/resources/css/style.css">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
@@ -27,7 +28,10 @@
             <div class="row">
                 <h1 class="my-4"><br>
                 </h1>
-            </div>    
+            </div>  
+            <div class="row">
+                <div class="container align-content-center">{$ads2}</div>
+            </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 portfolio-item">
                     <div class="card h-100">
@@ -67,9 +71,12 @@
         </div>
         <footer class="py-5 bg-blue-ligth">
             <div class="container">
-                <p class="m-0 text-center text-white">{$footer}</p>
+                {$ads1}
             </div>
         </footer>
         <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.min.js"> </script>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
     </body>
 </html>

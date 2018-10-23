@@ -8,13 +8,18 @@ require 'vendor/autoload.php';
 $smarty=new SmartyBC();
 $smarty->setCompileDir(__DIR__.'/temp/');
 //echo $_SERVER['REQUEST_URI'];
-$s=array("sergio","jorge");
 $menu=array(
     "Mi perfil",
     "Mis sorteos activos",
-    "Otros sorteos",
+    "lista de sorteos",
 );
+$arr=array("title"=>"tarjeta electronica netflix");
 $smarty->assign("footer","Copyright &copy; Your Website 2018");
+$smarty->assign("ads1","aqui banner 1");
+$smarty->assign("ads2",'<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6064776652287686" data-ad-slot="2850699014" data-ad-format="auto" data-full-width-responsive="true"></ins>');
+$smarty->assign("ads3","aqui banner 3");
+$smarty->assign("ads4","aqui banner 4");
+
 $smarty->assign("title","Sorteos");
 $smarty->assign("menu",$menu);
 $smarty->assign("val",$s[rand(0,1)]);
