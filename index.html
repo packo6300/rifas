@@ -3,11 +3,11 @@
     <head>
         <title>Sorteos</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../app/resources/css/style.css">
         <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
+        <script type="text/javascript">
+            window.adblockEnabled = true;
             (adsbygoogle = window.adsbygoogle || []).push({
                 google_ad_client: "ca-pub-6064776652287686",
                 enable_page_level_ads: true
@@ -102,6 +102,18 @@
            (adsbygoogle = window.adsbygoogle || []).push({});
            </script>
         </center>
-        <!-- <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"></script> -->       
+        <!-- <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"></script> -->  
+        <script type="text/javascript" src="adframe.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@7.26.29/dist/sweetalert2.all.min.js"></script>
+        <script type="text/javascript">
+            if(window.adblockEnabled) {
+                swal({
+                    title: '¡Ayuda!',
+                    text: 'Esta pagina vive gracias a la publicidad, deshabilita adblock y ayudanos a segir mejorando',
+                    type: 'error',
+                    confirmButtonText: 'Entendido'
+                });
+            }
+        </script>
     </body>
 </html>
