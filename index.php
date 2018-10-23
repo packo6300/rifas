@@ -7,7 +7,6 @@ if ($debug){
 require 'vendor/autoload.php';
 $smarty=new SmartyBC();
 $smarty->setCompileDir(__DIR__.'/temp/');
-//echo $_SERVER['REQUEST_URI'];
 $menu=array(
     "Mi perfil",
     "Mis sorteos activos",
