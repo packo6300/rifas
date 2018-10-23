@@ -1,6 +1,7 @@
 {
     "require": {
         "monolog/monolog": "^1.23",
+        "php": ">=5.3",
         "twitter/bootstrap": "^4.1",
         "smarty/smarty": "^3.1",
         "illuminate/database": "^5.7"
