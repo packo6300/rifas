@@ -41,12 +41,12 @@
                 {section name=a loop=$sorteos}
                     <div class="col-lg-4 col-sm-6 portfolio-item">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="{$sorteos[a].img}" alt=""></a>
                             <div class="card-body">
                                 <h4 class="card-title">
                                     <a href="#">{$sorteos[a].title}</a>
                                 </h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                                <p class="card-text">{$sorteos[a].desc}</p>
                             </div>
                         </div>
                     </div>
