@@ -12,7 +12,8 @@ $menu=array(
     "Mis sorteos activos",
     "lista de sorteos",
 );
-$arr=array("title"=>"tarjeta electronica netflix");
+$arr=[["title"=>"tarjeta electronica netflix","desc"=>"promocion rifa de netflix tarjeta"]];
+$smarty->assign("sorteos",$arr);
 $smarty->assign("footer","Copyright &copy; Your Website 2018");
 $smarty->assign("ads1",'<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6064776652287686" data-ad-slot="2702525201" data-ad-format="auto" data-full-width-responsive="true"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script>');
 $smarty->assign("ads2",'<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6064776652287686" data-ad-slot="2850699014" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>');
