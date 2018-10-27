@@ -7,11 +7,8 @@
         <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../app/resources/css/style.css">
         <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({
-                  google_ad_client: "ca-pub-6064776652287686",
-                  enable_page_level_ads: true
-             });
+        <script type="text/javascript">
+            window.adblockEnabled = true;
         </script>
     </head>
     <body>
@@ -77,11 +74,31 @@
                 </li>
             </ul>
         </div>
-        <footer class="py-5 bg-blue-ligth">
-            <div class="container">
-                {$ads1}
-            </div>
-        </footer>
-        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"> </script>        
+        <center>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6064776652287686"
+                data-ad-slot="7725767078"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+           <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+           </script>
+        </center>
+        <!-- <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"></script> -->  
+        <script type="text/javascript" src="adframe.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@7.26.29/dist/sweetalert2.all.min.js"></script>
+        <script type="text/javascript">
+            if(window.adblockEnabled) {
+                swal({
+                    allowOutsideClick: false,
+                    confirmButton:false,
+                    title: '¡Ayuda!',
+                    imageUrl: '../app/resources/img/adblock.png',
+                    text: 'Esta pagina vive gracias a la publicidad, deshabilita adblock y ayudanos a segir mejorando, la pagina no funcionara mientras este activado adblock',
+                    confirmButtonText: 'Entendido'
+                });
+            }
+        </script>        
     </body>
 </html>
