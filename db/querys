@@ -1,0 +1,13 @@
+CREATE TABLE `sorteos`.`sorteos` (
+  `idsorteos` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `fb` VARCHAR(250) NOT NULL,
+  `premio` VARCHAR(160) NOT NULL,
+  `titulo` VARCHAR(45) NOT NULL,
+  `descripcion` TEXT NOT NULL,
+  `finaliza` DATETIME NOT NULL,
+  `ganador` INTEGER UNSIGNED NOT NULL,
+  `participantes` BIGINT UNSIGNED NOT NULL,
+  `organiza` INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY (`idsorteos`)
+)
+ENGINE = InnoDB;

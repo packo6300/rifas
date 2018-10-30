@@ -7,11 +7,8 @@
         <link rel="stylesheet" href="../vendor/twitter/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="../app/resources/css/style.css">
         <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-             (adsbygoogle = window.adsbygoogle || []).push({
-                  google_ad_client: "ca-pub-6064776652287686",
-                  enable_page_level_ads: true
-             });
+        <script type="text/javascript">
+            window.adblockEnabled = true;
         </script>
     </head>
     <body>
@@ -41,17 +38,20 @@
                 <div class="container align-content-center">{$ads3}</div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project One</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+                {section name=a loop=$sorteos}
+                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                        <div class="card h-100">
+                            <a href="#"><img class="card-img-top" src="{$sorteos[a].img}" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a href="#">{$sorteos[a].title}</a>
+                                </h4>
+                                <p class="card-text">{$sorteos[a].desc}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                {/section}
+                
             </div>
             <ul class="pagination justify-content-center">
                 <li class="page-item">
@@ -77,11 +77,31 @@
                 </li>
             </ul>
         </div>
-        <footer class="py-5 bg-blue-ligth">
-            <div class="container">
-                {$ads1}
-            </div>
-        </footer>
-        <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"> </script>        
+        <center>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-6064776652287686"
+                data-ad-slot="7725767078"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+           <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+           </script>
+        </center>
+        <!-- <script type="text/javascript" src="../vendor/twitter/bootstrap/dist/js/bootstrap.js"></script> -->  
+        <script type="text/javascript" src="adframe.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@7.26.29/dist/sweetalert2.all.min.js"></script>
+        <script type="text/javascript">
+            if(window.adblockEnabled) {
+                swal({
+                    allowOutsideClick: false,
+                    confirmButton:false,
+                    title: '¡Ayuda!',
+                    imageUrl: '../app/resources/img/adblock.png',
+                    text: 'Esta pagina vive gracias a la publicidad, deshabilita adblock y ayudanos a segir mejorando, la pagina no funcionara mientras este activado adblock',
+                    confirmButtonText: 'Entendido'
+                });
+            }
+        </script>        
     </body>
 </html>
