@@ -35,9 +35,32 @@
                 </h1>
             </div>  
             <div class="row">
-                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <div class="col-md-6">{$ads3}</div>
-                <div class="col-md-6">{$ads2}</div>
+                <div class="col-md-6">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Adictos_alGYm -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-6064776652287686"
+                         data-ad-slot="9944808138"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+                <div class="col-md-6">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- inicio -->
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-client="ca-pub-6064776652287686"
+                         data-ad-slot="2850699014"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
             </div>
             <div class="row">
                 {section name=a loop=$sorteos}
