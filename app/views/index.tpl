@@ -35,7 +35,9 @@
                 </h1>
             </div>  
             <div class="row">
-                <div class="container align-content-center">{$ads3}</div>
+                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <div class="col-md-6">{$ads3}</div>
+                <div class="col-md-6">{$ads2}</div>
             </div>
             <div class="row">
                 {section name=a loop=$sorteos}
